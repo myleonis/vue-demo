@@ -1,14 +1,16 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import fist from '@/views/fist'
+
+/* layout */
+import MainLayout from '@/views/layout/MainLayout'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/',
-      component: fist
+      path: '',
+      component: MainLayout
     }
   ]
 })

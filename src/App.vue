@@ -10,13 +10,9 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+  // normalize.css 样式格式化
+  @import "../node_modules/normalize.css/normalize.css";
+  // 全局自定义的css样式
+  @import "./styles/index.scss";
 </style>

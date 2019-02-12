@@ -1,0 +1,47 @@
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: 'Microsoft YaHei UI Light', '微软雅黑', 'Helvetica Neue',
+  Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Arial',
+  'sans-serif';
+}
+
+html {
+  background: #f0f2f5;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+}
+
+// MT global styles
+.mt-card {
+  padding: 20px;
+  background-color: #fff;
+
+  .mt-card-title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+  }
+}
+
+.mt-radius {
+  border-radius: 10px;
+}
+
+// element-ui中table表头错位问题
+body .el-table th.gutter {
+  display: table-cell !important;
+}
+
+body .el-table colgroup.gutter {
+  display: table-cell !important;
+}

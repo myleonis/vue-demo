@@ -409,6 +409,7 @@ export default {
     }
   },
   mounted () {
+    console.log("process", process.env.NODE_ENV);
     this.initChart()
   },
   methods: {

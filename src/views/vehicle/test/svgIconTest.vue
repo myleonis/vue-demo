@@ -1,8 +1,8 @@
 <template>
   <div class="svg-test">
-    <icon name="chameleon" scale="10" spin></icon>
-    <!--若想指定位置颜色更改，fill不指定-->
-    <icon name="lemon" scale="20"  id="animation"></icon>
+    <!--若想指定位置颜色更改，fill不设置-->
+    <icon name="chameleon" scale="20" id="animation"></icon>
+    <icon name="lemon" scale="20"  spin></icon>
   </div>
 </template>
 

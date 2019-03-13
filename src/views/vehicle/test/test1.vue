@@ -8,6 +8,7 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 export default {
   name: 'test1',
   data () {
@@ -16,8 +17,12 @@ export default {
     }
   },
   mounted () {
+    console.log('test', this.testCount)
   },
   computed: {
+    ...mapState({
+      testCount: state => state.count
+    }),
     count () {
       return this.$store.state.count
     }

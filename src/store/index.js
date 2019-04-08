@@ -1,17 +1,17 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from "vue";
+import Vuex from "vuex";
 
-import getters from './getters'
-import permission from './modules/permission'
-Vue.use(Vuex)
+import getters from "./getters";
+import permission from "./modules/permission";
+Vue.use(Vuex);
 
 // state.js
 const state = {
   count: 1,
-  name: 'dkr',
-  sex: '男',
-  from: 'china'
-}
+  name: "dkr",
+  sex: "男",
+  from: "china"
+};
 export default new Vuex.Store({
   /**
    * modules中的格式一定需要对应。 不然undefined
@@ -26,4 +26,4 @@ export default new Vuex.Store({
   },
   state,
   getters
-})
+});

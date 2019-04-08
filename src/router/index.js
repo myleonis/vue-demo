@@ -43,6 +43,16 @@ export const routeList = [
         name: "测试3",
         path: "/test3",
         component: _import("vehicle/test/alert")
+      },
+      {
+        name: "raf",
+        path: "/raf",
+        component: _import("vehicle/test/requestAnimationFrame")
+      },
+      {
+        name: "top",
+        path: "/top",
+        component: _import("vehicle/test/svgTop")
       }
     ]
   }

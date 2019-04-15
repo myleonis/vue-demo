@@ -53,6 +53,11 @@ export const routeList = [
         name: "top",
         path: "/top",
         component: _import("vehicle/test/svgTop")
+      },
+      {
+        name: "rollbar",
+        path: "/rollbar",
+        component: _import("vehicle/test1/RollBarTest")
       }
     ]
   }

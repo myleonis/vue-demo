@@ -58,6 +58,11 @@ export const routeList = [
         name: "rollbar",
         path: "/rollbar",
         component: _import("vehicle/test1/RollBarTest")
+      },
+      {
+        name: "xRollbar",
+        path: "/xRollbar",
+        component: _import("vehicle/test1/XrollBar")
       }
     ]
   }

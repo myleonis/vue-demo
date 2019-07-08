@@ -12,6 +12,9 @@ import Icon from "vue-svg-icon/Icon.vue";
 Vue.component("icon", Icon);
 
 Vue.use(ElementUi);
+// 原型属性
+Vue.prototype.$test123 = "ceshi123";
+window.test333 = "test333";
 
 // 生产环境时自动设置为 false 以阻止 web 在启动时生成生产提示
 Vue.config.productionTip = false;

@@ -28,6 +28,10 @@ export default {
       popBox.style.display = 'none'
       popLayer.style.display = 'none'
     }
+  },
+  mounted() {
+    console.log('$test123', this.$test123);
+    console.log('test333', window.test333);
   }
 }
 </script>

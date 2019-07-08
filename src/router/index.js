@@ -63,6 +63,21 @@ export const routeList = [
         name: "xRollbar",
         path: "/xRollbar",
         component: _import("vehicle/test1/XrollBar")
+      },
+      {
+        name: "RollBarXTest",
+        path: "/RollBarXTest",
+        component: _import("vehicle/test1/RollBarXTest")
+      },
+      {
+        name: "BetterScroll",
+        path: "/BetterScroll",
+        component: _import("vehicle/test1/BetterScrollTest")
+      },
+      {
+        name: "scrollTest",
+        path: "/scrollTest",
+        component: _import("vehicle/scrollTest/index")
       }
     ]
   }

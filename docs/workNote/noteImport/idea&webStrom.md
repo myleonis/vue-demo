@@ -13,7 +13,7 @@
 5. 选择 Javscript Debug
 6. 填上 URL 之后，下面的目录映射就会显示出来
 
-![webStrom](E:\myInformation\workNote\noteImport\assets/webStrom.jpg)
+![webStrom](https://github.com/myleonis/vue-demo/tree/master/docs/workNote/noteImport/assets/webStrom.jpg)
 
 7. Npm run dev后运行 debug
 8. 设置断点，点击右上角的小虫子

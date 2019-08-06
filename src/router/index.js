@@ -78,6 +78,16 @@ export const routeList = [
         name: "scrollTest",
         path: "/scrollTest",
         component: _import("vehicle/scrollTest/index")
+      },
+      {
+        name: "dateSeason",
+        path: "/dateSeason",
+        component: _import("vehicle/test/dateSeason")
+      },
+      {
+        name: "elTableTest",
+        path: "/elTableTest",
+        component: _import("vehicle/test/elTableTest")
       }
     ]
   }

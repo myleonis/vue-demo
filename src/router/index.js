@@ -88,6 +88,11 @@ export const routeList = [
         name: "elTableTest",
         path: "/elTableTest",
         component: _import("vehicle/test/elTableTest")
+      },
+      {
+        name: "dialogDate",
+        path: "/dialogDate",
+        component: _import("vehicle/test1/dialogDate")
       }
     ]
   }

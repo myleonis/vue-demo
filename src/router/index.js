@@ -37,7 +37,7 @@ export const routeList = [
       {
         name: "svg",
         path: "/svgTest",
-        component: svgIconTest
+        component: () => import("@/views/vehicle/test/svgIconTest")
       },
       {
         name: "测试3",
